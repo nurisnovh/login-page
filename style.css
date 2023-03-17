@@ -1,0 +1,146 @@
+.image{
+    background-image:url('https://media.istockphoto.com/id/1145592947/photo/bitcoin.jpg?s=612x612&w=0&k=20&c=od4w9UHTdjOKQ-H-Mq2YfhuDilEAaEBtfXlamCL9LN8=');
+    background-size: 300px 400px;
+    background-color: rgb(28, 28, 77);
+    width: 350px;
+    height: 450px;
+    display: inline-block;
+    position: absolute;
+    border-radius: 15px 15px 200px 200px;
+}
+
+#left, #right{
+    display: inline-block;
+    width: 175px;
+    height: 550px;
+    background-color: rgb(28, 28, 77);
+}
+#left{
+    border-radius:15px 0px 0px 15px;  
+}
+#right{
+    border-radius:15px 15px 15px 0px;  
+}
+.cardclick{
+    position: absolute;
+    width: auto;
+    height: auto;
+    border-radius: 15px 15px 15px 15px;
+}
+.firstbox{
+    background-color: white;
+    display: inline-block;
+    border-radius: 15px 15px 15px 15px;
+
+}
+.sclass1{
+    color: rgb(249, 248, 248);
+    position: absolute;
+    bottom: 0;
+    left: 63%;
+    margin-left: -50%;
+}
+.sclass1 span, .sclass2 span{
+    display: block;
+}
+.sclass2{
+    color: rgb(250, 247, 247);
+    position: absolute;
+    bottom: 0;
+    right: 63%;
+    margin-right: -50%;
+}
+.mainheader{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-top: 50px;
+}
+.card2{
+    background-color: rgb(28, 28, 77);
+    width: 350px;
+    height: 550px;
+    border-radius: 15px;
+    position: absolute;
+    left: 400px;
+    display: inline-block;
+}
+.username{
+    font-weight: bold;
+    width: 230px;
+    height: 45px;
+    margin: 0 35px 20px 45px;
+    padding: 6px 15px;
+    border: none;
+    border-radius: 15px;
+    background-color: #f6f7f9;
+    font-size: medium;
+    transition-property: 0.5s;
+
+}
+
+.username:hover{
+    background-color: rgb(30, 13, 69);
+    border: hidden;
+    color: white;
+    
+}
+.button {
+    color: rgb(28, 28, 77);
+    width: 230px;
+    height: 35px;
+    margin: 0 48px 20px 55px;
+    outline: none;
+    border: none;
+    font-size: medium;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.button:hover{
+    box-shadow: 0 3px 10px rgb(222, 162, 89);
+    color: #f6f7f9;
+    background-color: rgb(28, 28, 77);
+}
+.button:active{
+    color: #f6f7f9;
+    background-color: rgb(19, 19, 51);
+}
+
+.signup1{
+    color: #fdfafb;
+    text-align: center;
+    margin-bottom: 60px;
+    margin-top: 50px;
+}
+
+
+a{
+    text-decoration: none;
+}
+.forgetpass{
+    color: #f6f7f9;
+    font-size: 20px;
+    text-align: center;
+    margin-top: -70px;
+    width: 4px 5px;
+    cursor: pointer;
+    transition: 0.5s;
+
+}
+.forgetpass:hover{
+    color: rgb(117, 117, 141);
+    text-shadow: #f6f7f9;
+}
+.signup{
+    background-image:url('https://media.istockphoto.com/id/1145592947/photo/bitcoin.jpg?s=612x612&w=0&k=20&c=od4w9UHTdjOKQ-H-Mq2YfhuDilEAaEBtfXlamCL9LN8=');
+    height: 100px;
+    width: 350px;
+    display: inline-block;
+    position: absolute;
+    border-radius: 64px 65px 300px 60px;
+    
+
+
+
+}
